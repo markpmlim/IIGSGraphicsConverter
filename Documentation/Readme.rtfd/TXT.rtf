@@ -1,0 +1,137 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\vieww22240\viewh14960\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural\partightenfactor0
+
+\f0\b\fs36 \cf0 IIGSGraphicsConverter
+\b0 \
+\
+A utility to compress files with ProDOS file and auxiliary types ($C1/0000 and $C1/0002) to other graphic formats natively supported on the AppleIIGS computer. This includes $C1/0001(Packed Super Hi-Res Format), $C0/0002(Apple Preferred Format) and $C0/8005 (DreamGraphics).\
+\
+When the utility is launched a single progress window will be displayed on the Mac OS X desktop. See fig 1.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\fs24 \cf0 {{\NeXTGraphic fig1.tiff \width10060 \height2400
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\fs36 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\qc\pardirnatural\partightenfactor0
+\cf0 Fig. 1\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural\partightenfactor0
+\cf0 \
+The utility has only 1 option under File Menu: 
+\b Compress
+\b0 . On selecting this option, a dialog box entitled 
+\b "Select Files to be compressed"
+\b0  will be displayed. See fig 2.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\fs24 \cf0 {{\NeXTGraphic fig2.tiff \width13200 \height12440
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\fs36 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\qc\pardirnatural\partightenfactor0
+\cf0 Fig. 2\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural\partightenfactor0
+\cf0 \
+Files with suffixes ether 
+\b SHR
+\b0  or 
+\b 3200
+\b0  will be selectable but not both; batch processing is supported since the above dialog box allows multiple files to be selected.\
+\
+There are two pop-up menus: 
+\b Compression
+\b0  and 
+\b Source Format
+\b0 .\
+\
+Under the 
+\b Source Format
+\b0  menu are 2 choices viz. 
+\b SHR
+\b0  and 
+\b 3200
+\b0 , the initial default being 
+\b SHR
+\b0 . On selecting the 
+\b 3200
+\b0  option, files with suffixes 
+\b 3200
+\b0  will be selectable; all other files (including 
+\b SHR
+\b0 ) will be displayed as non-selectable. Conversely, if the 
+\b SHR
+\b0  option is chosen, then only files with suffixes 
+\b SHR
+\b0  will be displayed as selectable.\
+\
+Under the Compression menu are 3 choices: 
+\b HackBytes
+\b0 , 
+\b PackBytes
+\b0  and 
+\b LZW
+\b0  with the first option being the initial default.\
+\
+If the user selects 
+\b LZW
+\b0  as the compression mode, then all files will be converted to DreamGraphics-compatible format. The compressed file(s) written to the destination folder with a file extension of DG.\
+\
+The 
+\b Convert
+\b0  button at the bottom right of the dialog box becomes enabled when one or more Apple IIgs graphics files are selected.\
+\
+
+\b Hint
+\b0 : To select all enabled files, press 
+\fs24 {{\NeXTGraphic commandglyphs.gif \width220 \height220 \noorient
+}¬}
+\f1\b\fs32 +A
+\f0\b0\fs36 \
+\
+A click on the button will cause this dialog to be dismissed and replaced with another dialog box entitled 
+\b "Select Destination Folder"
+\b0 . See fig 3.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\fs24 \cf0 {{\NeXTGraphic fig3.tiff \width13200 \height12440
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
+
+\fs36 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\qc\pardirnatural\partightenfactor0
+\cf0 Fig. 3\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural\partightenfactor0
+\cf0 \
+The user can navigate to any folder of the MacOSX desktop to save the compressed file(s). A click on the 
+\b Process
+\b0  button will start the batch process.\
+\
+The file extension of the uncompressed file will be replaced with the appropriate suffix. For example, AngelFish.
+\b SHR
+\b0  will be named as AngelFish.
+\b DG
+\b0  if the compression method is 
+\b LZW
+\b0 .\
+\
+Note: no check is made for a duplicate of the compressed file in the destination folder. Any duplicate will be overwritten.\
+\
+On the other hand, if the user had chosen the compression method as 
+\b HackBytes/PackBytes
+\b0 , then a pop-up menu (labelled 
+\b Destination Forma
+\b0 t) would be displayed within this second dialog box. The compressed file(s) can be saved as 
+\b PAK
+\b0  or 
+\b APF
+\b0 .\
+\
+
+\b Run time requirements:
+\b0  10.6 or later\
+}

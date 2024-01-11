@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		EE3ACFDD2B1EBB8A002FDBF4 /* IIGraphicsConverter.icns in Resources */ = {isa = PBXBuildFile; fileRef = EE3ACFDB2B1EBB8A002FDBF4 /* IIGraphicsConverter.icns */; };
+		EECB41601EC6F61700C402A1 /* Encoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EECB415F1EC6F61700C402A1 /* Encoder.m */; };
+		EED79F571EC9D6ED0015E638 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EED79F551EC9D6ED0015E638 /* Credits.rtf */; };
+		EED8D3CD2B4C1B880082DFCB /* fig1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EED8D3C92B4C1B880082DFCB /* fig1.tiff */; };
+		EED8D3CE2B4C1B880082DFCB /* fig2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EED8D3CA2B4C1B880082DFCB /* fig2.tiff */; };
+		EED8D3CF2B4C1B880082DFCB /* fig3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EED8D3CB2B4C1B880082DFCB /* fig3.tiff */; };
+		EED8D3D02B4C1B880082DFCB /* Readme.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = EED8D3CC2B4C1B880082DFCB /* Readme.rtfd */; };
+		EED8D3EB2B4C1BD50082DFCB /* Read.md in Resources */ = {isa = PBXBuildFile; fileRef = EED8D3EA2B4C1BD50082DFCB /* Read.md */; };
+		EEE1780A1EBAC9B700F9C5F5 /* CompressOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE178091EBAC9B700F9C5F5 /* CompressOperation.m */; };
+		EEEBFD7E1EBB49E0006C59BE /* BrooksGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEBFD7C1EBB49E0006C59BE /* BrooksGraphic.m */; };
+		EEFE09231EBA888A00B91F0E /* ConvertProgressWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEFE09211EBA888A00B91F0E /* ConvertProgressWindow.xib */; };
+		EEFE09301EBA89AB00B91F0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE092B1EBA89AB00B91F0E /* AppDelegate.m */; };
+		EEFE09321EBA89AB00B91F0E /* ConvertProgressWinController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE092F1EBA89AB00B91F0E /* ConvertProgressWinController.m */; };
+		EEFE093B1EBA8A3900B91F0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE09391EBA8A3900B91F0E /* main.m */; };
+		EEFE09581EBA902100B91F0E /* IIgsGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE09571EBA902100B91F0E /* IIgsGraphic.m */; };
+		EEFE09621EBA92EB00B91F0E /* APFGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE09611EBA92EB00B91F0E /* APFGraphic.m */; };
+		EEFE09711EBA941A00B91F0E /* SHRGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE09701EBA941A00B91F0E /* SHRGraphic.m */; };
+		EEFE09941EBAA35000B91F0E /* Encoder_HackBytes.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE098F1EBAA35000B91F0E /* Encoder_HackBytes.m */; };
+		EEFE09951EBAA35000B91F0E /* Encoder_LZWPack.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE09911EBAA35000B91F0E /* Encoder_LZWPack.m */; };
+		EEFE09961EBAA35000B91F0E /* Encoder_PackBytes.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE09931EBAA35000B91F0E /* Encoder_PackBytes.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* IIGSGraphicsConverter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIGSGraphicsConverter_Prefix.pch; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* IIGSGraphicsConverter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IIGSGraphicsConverter-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* IIGSGraphicsConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IIGSGraphicsConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3ACFDC2B1EBB8A002FDBF4 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = English; path = English.lproj/IIGraphicsConverter.icns; sourceTree = "<group>"; };
+		EECB415E1EC6F61700C402A1 /* Encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Encoder.h; path = Source/Codecs/Encoder.h; sourceTree = "<group>"; };
+		EECB415F1EC6F61700C402A1 /* Encoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Encoder.m; path = Source/Codecs/Encoder.m; sourceTree = "<group>"; };
+		EED79F561EC9D6ED0015E638 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EED8D3C92B4C1B880082DFCB /* fig1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = fig1.tiff; sourceTree = "<group>"; };
+		EED8D3CA2B4C1B880082DFCB /* fig2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = fig2.tiff; sourceTree = "<group>"; };
+		EED8D3CB2B4C1B880082DFCB /* fig3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = fig3.tiff; sourceTree = "<group>"; };
+		EED8D3CC2B4C1B880082DFCB /* Readme.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = Readme.rtfd; path = Documentation/Readme.rtfd; sourceTree = "<group>"; };
+		EED8D3EA2B4C1BD50082DFCB /* Read.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Read.md; sourceTree = "<group>"; };
+		EEE178081EBAC9B700F9C5F5 /* CompressOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompressOperation.h; path = Source/Coordinators/CompressOperation.h; sourceTree = "<group>"; };
+		EEE178091EBAC9B700F9C5F5 /* CompressOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompressOperation.m; path = Source/Coordinators/CompressOperation.m; sourceTree = "<group>"; };
+		EEEBFD7C1EBB49E0006C59BE /* BrooksGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BrooksGraphic.m; path = Source/Graphics/BrooksGraphic.m; sourceTree = "<group>"; };
+		EEEBFD7D1EBB49E0006C59BE /* BrooksGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BrooksGraphic.h; path = Source/Graphics/BrooksGraphic.h; sourceTree = "<group>"; };
+		EEFE09221EBA888A00B91F0E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/ConvertProgressWindow.xib; sourceTree = "<group>"; };
+		EEFE092A1EBA89AB00B91F0E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Source/Coordinators/AppDelegate.h; sourceTree = "<group>"; };
+		EEFE092B1EBA89AB00B91F0E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Source/Coordinators/AppDelegate.m; sourceTree = "<group>"; };
+		EEFE092E1EBA89AB00B91F0E /* ConvertProgressWinController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvertProgressWinController.h; path = Source/Coordinators/ConvertProgressWinController.h; sourceTree = "<group>"; };
+		EEFE092F1EBA89AB00B91F0E /* ConvertProgressWinController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConvertProgressWinController.m; path = Source/Coordinators/ConvertProgressWinController.m; sourceTree = "<group>"; };
+		EEFE09391EBA8A3900B91F0E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/main.m; sourceTree = "<group>"; };
+		EEFE093A1EBA8A3900B91F0E /* UserDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserDefines.h; path = Source/UserDefines.h; sourceTree = "<group>"; };
+		EEFE09561EBA902100B91F0E /* IIgsGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IIgsGraphic.h; path = Source/Graphics/IIgsGraphic.h; sourceTree = "<group>"; };
+		EEFE09571EBA902100B91F0E /* IIgsGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IIgsGraphic.m; path = Source/Graphics/IIgsGraphic.m; sourceTree = "<group>"; };
+		EEFE09601EBA92EB00B91F0E /* APFGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APFGraphic.h; path = Source/Graphics/APFGraphic.h; sourceTree = "<group>"; };
+		EEFE09611EBA92EB00B91F0E /* APFGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APFGraphic.m; path = Source/Graphics/APFGraphic.m; sourceTree = "<group>"; };
+		EEFE096F1EBA941A00B91F0E /* SHRGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHRGraphic.h; path = Source/Graphics/SHRGraphic.h; sourceTree = "<group>"; };
+		EEFE09701EBA941A00B91F0E /* SHRGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHRGraphic.m; path = Source/Graphics/SHRGraphic.m; sourceTree = "<group>"; };
+		EEFE098E1EBAA35000B91F0E /* Encoder_HackBytes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Encoder_HackBytes.h; path = Source/Codecs/Encoder_HackBytes.h; sourceTree = "<group>"; };
+		EEFE098F1EBAA35000B91F0E /* Encoder_HackBytes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Encoder_HackBytes.m; path = Source/Codecs/Encoder_HackBytes.m; sourceTree = "<group>"; };
+		EEFE09901EBAA35000B91F0E /* Encoder_LZWPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Encoder_LZWPack.h; path = Source/Codecs/Encoder_LZWPack.h; sourceTree = "<group>"; };
+		EEFE09911EBAA35000B91F0E /* Encoder_LZWPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Encoder_LZWPack.m; path = Source/Codecs/Encoder_LZWPack.m; sourceTree = "<group>"; };
+		EEFE09921EBAA35000B91F0E /* Encoder_PackBytes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Encoder_PackBytes.h; path = Source/Codecs/Encoder_PackBytes.h; sourceTree = "<group>"; };
+		EEFE09931EBAA35000B91F0E /* Encoder_PackBytes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Encoder_PackBytes.m; path = Source/Codecs/Encoder_PackBytes.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EEFE098D1EBAA32F00B91F0E /* Codecs */,
+				EEFE09531EBA8FA900B91F0E /* Graphics */,
+				EEFE09291EBA898700B91F0E /* Coordinators */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* IIGSGraphicsConverter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ConvertSHR+3200 */ = {
+			isa = PBXGroup;
+			children = (
+				EED8D3EA2B4C1BD50082DFCB /* Read.md */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "ConvertSHR+3200";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EED8D3C82B4C1B880082DFCB /* Images */,
+				EED8D3CC2B4C1B880082DFCB /* Readme.rtfd */,
+				EED79F551EC9D6ED0015E638 /* Credits.rtf */,
+				EEFE09391EBA8A3900B91F0E /* main.m */,
+				EEFE093A1EBA8A3900B91F0E /* UserDefines.h */,
+				256AC3F00F4B6AF500CF3369 /* IIGSGraphicsConverter_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE3ACFDB2B1EBB8A002FDBF4 /* IIGraphicsConverter.icns */,
+				EEFE09211EBA888A00B91F0E /* ConvertProgressWindow.xib */,
+				8D1107310486CEB800E47090 /* IIGSGraphicsConverter-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EED8D3C82B4C1B880082DFCB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EED8D3C92B4C1B880082DFCB /* fig1.tiff */,
+				EED8D3CA2B4C1B880082DFCB /* fig2.tiff */,
+				EED8D3CB2B4C1B880082DFCB /* fig3.tiff */,
+			);
+			name = Images;
+			path = Documentation/Images;
+			sourceTree = "<group>";
+		};
+		EEFE09291EBA898700B91F0E /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				EEFE092A1EBA89AB00B91F0E /* AppDelegate.h */,
+				EEFE092B1EBA89AB00B91F0E /* AppDelegate.m */,
+				EEE178081EBAC9B700F9C5F5 /* CompressOperation.h */,
+				EEE178091EBAC9B700F9C5F5 /* CompressOperation.m */,
+				EEFE092E1EBA89AB00B91F0E /* ConvertProgressWinController.h */,
+				EEFE092F1EBA89AB00B91F0E /* ConvertProgressWinController.m */,
+			);
+			name = Coordinators;
+			sourceTree = "<group>";
+		};
+		EEFE09531EBA8FA900B91F0E /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				EEFE09601EBA92EB00B91F0E /* APFGraphic.h */,
+				EEFE09611EBA92EB00B91F0E /* APFGraphic.m */,
+				EEEBFD7D1EBB49E0006C59BE /* BrooksGraphic.h */,
+				EEEBFD7C1EBB49E0006C59BE /* BrooksGraphic.m */,
+				EEFE09561EBA902100B91F0E /* IIgsGraphic.h */,
+				EEFE09571EBA902100B91F0E /* IIgsGraphic.m */,
+				EEFE096F1EBA941A00B91F0E /* SHRGraphic.h */,
+				EEFE09701EBA941A00B91F0E /* SHRGraphic.m */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		EEFE098D1EBAA32F00B91F0E /* Codecs */ = {
+			isa = PBXGroup;
+			children = (
+				EECB415E1EC6F61700C402A1 /* Encoder.h */,
+				EECB415F1EC6F61700C402A1 /* Encoder.m */,
+				EEFE098E1EBAA35000B91F0E /* Encoder_HackBytes.h */,
+				EEFE098F1EBAA35000B91F0E /* Encoder_HackBytes.m */,
+				EEFE09901EBAA35000B91F0E /* Encoder_LZWPack.h */,
+				EEFE09911EBAA35000B91F0E /* Encoder_LZWPack.m */,
+				EEFE09921EBAA35000B91F0E /* Encoder_PackBytes.h */,
+				EEFE09931EBAA35000B91F0E /* Encoder_PackBytes.m */,
+			);
+			name = Codecs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* IIGSGraphicsConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "IIGSGraphicsConverter" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IIGSGraphicsConverter;
+			productInstallPath = "$(HOME)/Applications";
+			productName = "ConvertSHR+3200";
+			productReference = 8D1107320486CEB800E47090 /* IIGSGraphicsConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IIGSGraphicsConverter" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ConvertSHR+3200 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* IIGSGraphicsConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				EEFE09231EBA888A00B91F0E /* ConvertProgressWindow.xib in Resources */,
+				EED79F571EC9D6ED0015E638 /* Credits.rtf in Resources */,
+				EE3ACFDD2B1EBB8A002FDBF4 /* IIGraphicsConverter.icns in Resources */,
+				EED8D3CD2B4C1B880082DFCB /* fig1.tiff in Resources */,
+				EED8D3CE2B4C1B880082DFCB /* fig2.tiff in Resources */,
+				EED8D3CF2B4C1B880082DFCB /* fig3.tiff in Resources */,
+				EED8D3D02B4C1B880082DFCB /* Readme.rtfd in Resources */,
+				EED8D3EB2B4C1BD50082DFCB /* Read.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFE09301EBA89AB00B91F0E /* AppDelegate.m in Sources */,
+				EEFE09321EBA89AB00B91F0E /* ConvertProgressWinController.m in Sources */,
+				EEFE093B1EBA8A3900B91F0E /* main.m in Sources */,
+				EEFE09581EBA902100B91F0E /* IIgsGraphic.m in Sources */,
+				EEFE09621EBA92EB00B91F0E /* APFGraphic.m in Sources */,
+				EEFE09711EBA941A00B91F0E /* SHRGraphic.m in Sources */,
+				EEFE09941EBAA35000B91F0E /* Encoder_HackBytes.m in Sources */,
+				EEFE09951EBAA35000B91F0E /* Encoder_LZWPack.m in Sources */,
+				EEFE09961EBAA35000B91F0E /* Encoder_PackBytes.m in Sources */,
+				EEE1780A1EBAC9B700F9C5F5 /* CompressOperation.m in Sources */,
+				EEEBFD7E1EBB49E0006C59BE /* BrooksGraphic.m in Sources */,
+				EECB41601EC6F61700C402A1 /* Encoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		EE3ACFDB2B1EBB8A002FDBF4 /* IIGraphicsConverter.icns */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3ACFDC2B1EBB8A002FDBF4 /* English */,
+			);
+			name = IIGraphicsConverter.icns;
+			sourceTree = "<group>";
+		};
+		EED79F551EC9D6ED0015E638 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED79F561EC9D6ED0015E638 /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EEFE09211EBA888A00B91F0E /* ConvertProgressWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEFE09221EBA888A00B91F0E /* English */,
+			);
+			name = ConvertProgressWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IIGSGraphicsConverter_Prefix.pch;
+				INFOPLIST_FILE = "IIGSGraphicsConverter-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = IIGSGraphicsConverter;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IIGSGraphicsConverter_Prefix.pch;
+				INFOPLIST_FILE = "IIGSGraphicsConverter-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = IIGSGraphicsConverter;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 ppc x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "IIGSGraphicsConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IIGSGraphicsConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
