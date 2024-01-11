@@ -17,7 +17,7 @@
 		EED8D3CE2B4C1B880082DFCB /* fig2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EED8D3CA2B4C1B880082DFCB /* fig2.tiff */; };
 		EED8D3CF2B4C1B880082DFCB /* fig3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EED8D3CB2B4C1B880082DFCB /* fig3.tiff */; };
 		EED8D3D02B4C1B880082DFCB /* Readme.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = EED8D3CC2B4C1B880082DFCB /* Readme.rtfd */; };
-		EED8D3EB2B4C1BD50082DFCB /* Read.md in Resources */ = {isa = PBXBuildFile; fileRef = EED8D3EA2B4C1BD50082DFCB /* Read.md */; };
+		EED8D3EB2B4C1BD50082DFCB /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = EED8D3EA2B4C1BD50082DFCB /* Readme.md */; };
 		EEE1780A1EBAC9B700F9C5F5 /* CompressOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE178091EBAC9B700F9C5F5 /* CompressOperation.m */; };
 		EEEBFD7E1EBB49E0006C59BE /* BrooksGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEBFD7C1EBB49E0006C59BE /* BrooksGraphic.m */; };
 		EEFE09231EBA888A00B91F0E /* ConvertProgressWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEFE09211EBA888A00B91F0E /* ConvertProgressWindow.xib */; };
@@ -50,7 +50,7 @@
 		EED8D3CA2B4C1B880082DFCB /* fig2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = fig2.tiff; sourceTree = "<group>"; };
 		EED8D3CB2B4C1B880082DFCB /* fig3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = fig3.tiff; sourceTree = "<group>"; };
 		EED8D3CC2B4C1B880082DFCB /* Readme.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = Readme.rtfd; path = Documentation/Readme.rtfd; sourceTree = "<group>"; };
-		EED8D3EA2B4C1BD50082DFCB /* Read.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Read.md; sourceTree = "<group>"; };
+		EED8D3EA2B4C1BD50082DFCB /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
 		EEE178081EBAC9B700F9C5F5 /* CompressOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompressOperation.h; path = Source/Coordinators/CompressOperation.h; sourceTree = "<group>"; };
 		EEE178091EBAC9B700F9C5F5 /* CompressOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompressOperation.m; path = Source/Coordinators/CompressOperation.m; sourceTree = "<group>"; };
 		EEEBFD7C1EBB49E0006C59BE /* BrooksGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BrooksGraphic.m; path = Source/Graphics/BrooksGraphic.m; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 		29B97314FDCFA39411CA2CEA /* ConvertSHR+3200 */ = {
 			isa = PBXGroup;
 			children = (
-				EED8D3EA2B4C1BD50082DFCB /* Read.md */,
+				EED8D3EA2B4C1BD50082DFCB /* Readme.md */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -283,7 +283,7 @@
 				EED8D3CE2B4C1B880082DFCB /* fig2.tiff in Resources */,
 				EED8D3CF2B4C1B880082DFCB /* fig3.tiff in Resources */,
 				EED8D3D02B4C1B880082DFCB /* Readme.rtfd in Resources */,
-				EED8D3EB2B4C1BD50082DFCB /* Read.md in Resources */,
+				EED8D3EB2B4C1BD50082DFCB /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
