@@ -2,12 +2,13 @@
 
 <br />
 <br />
-<br />
 
-This simple utility can compress PIC files ($C1/$0000 and $C1/$0001) to one of the following formats:
+This simple utility can compress **PIC** files ($C1/$0000 and $C1/$0001) to one of the following formats:
 
 a) Packed Super Hi-Res Image ($C0/$0001)
+<br />
 b) Apple Preferred Format ($C0/$0002)
+<br />
 c) DreamGrafix Document ($C0/$8005)
 
 To facilitate file recognition by this macOS utility, the following file extensions must be assigned to files with the following Apple II file and auxiliary types: 
@@ -24,12 +25,12 @@ b) APF ($C0/$0002)
 <br />
 c) DG  ($C0/$8005)
 
-All file extensions mentioned above are also recognized by QuickViewSHR.
+<br />
+<br />
+All file extensions mentioned above are also recognized by **QuickViewSHR**.
 
 <br />
 <br />
-<br />
-
 
 ## Problem Encountered
 
@@ -44,7 +45,6 @@ As a result, this project must be build using **v10.6** frameworks with the depl
 
 There is a Help file (Readme.rtf) included with the project and can be accessed via the program's **Help Menu**.
 
-<br />
 <br />
 <br />
 
@@ -65,10 +65,6 @@ macOS v10.6 or later.
 **Acknowledgements**:
 
 Bill Buckets for his HackBytes function.
-
 <br />
 <br />
-
 Sheldon Simms for his packBytes function.
-
-
