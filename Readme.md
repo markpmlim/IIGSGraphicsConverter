@@ -3,7 +3,7 @@
 <br />
 <br />
 
-This simple utility can compress **PIC** files ($C1/$0000 and $C1/$0001) to one of the following formats:
+This simple utility can compress **PIC** files ($C1/$0000 and $C1/$0001) to one of the following **PNT** formats:
 
 a) Packed Super Hi-Res Image ($C0/$0001)
 <br />
