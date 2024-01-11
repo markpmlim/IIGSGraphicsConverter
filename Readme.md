@@ -13,12 +13,15 @@ c) DreamGrafix Document ($C0/$8005)
 To facilitate file recognition by this macOS utility, the following file extensions must be assigned to files with the following Apple II file and auxiliary types: 
 
 a) SHR  ($C1/$0000)
+<br />
 b) 3200 ($C1/$0001)
 
 If a compression procedure succeeds, the utility will produce files with the following Apple II file and auxiliary types; a file extension will be appended to the file as well.
 
 a) PAK ($C0/$0001)
+<br />
 b) APF ($C0/$0002)
+<br />
 c) DG  ($C0/$8005)
 
 All file extensions mentioned above are also recognized by QuickViewSHR.
@@ -62,6 +65,10 @@ macOS v10.6 or later.
 **Acknowledgements**:
 
 Bill Buckets for his HackBytes function.
+
+<br />
+<br />
+
 Sheldon Simms for his packBytes function.
 
 
